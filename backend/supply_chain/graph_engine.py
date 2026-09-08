@@ -1,5 +1,5 @@
 """
-WareFlow Supply Chain — Graph Routing Engine (Expanded)
+Auxia Supply Chain — Graph Routing Engine (Expanded)
 
 Builds a NetworkX graph of 22 Indian city hubs connected by 50+ highway edges.
 Provides Dijkstra shortest-path routing with dynamic risk-weighted rerouting
@@ -310,7 +310,7 @@ def get_graph_info() -> Dict[str, Any]:
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("  WareFlow Graph Engine — Standalone Test")
+    print("  Auxia Graph Engine — Standalone Test")
     print("=" * 60)
 
     # Test 1: Normal route

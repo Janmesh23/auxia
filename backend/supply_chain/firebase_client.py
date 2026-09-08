@@ -1,5 +1,5 @@
 """
-WareFlow Supply Chain — Firebase Realtime Database Client (Unified)
+Auxia Supply Chain — Firebase Realtime Database Client (Unified)
 
 Centralized Firebase read/write operations for ALL supply chain modules.
 P1, P2, and P3 import from this file to avoid duplicate DB connections.

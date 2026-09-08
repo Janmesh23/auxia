@@ -1,5 +1,5 @@
 """
-WareFlow Supply Chain — Firebase Risk Score Listener (Updated)
+Auxia Supply Chain — Firebase Risk Score Listener (Updated)
 
 Background async task that polls the risk_score from Firebase every 3 seconds.
 When the score exceeds 0.7 (and hasn't already been handled), it automatically

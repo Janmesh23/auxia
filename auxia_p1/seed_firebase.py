@@ -1,4 +1,4 @@
-"""Seed Firebase Realtime Database with the shared WareFlow schema."""
+"""Seed Firebase Realtime Database with the shared Auxia schema."""
 
 import os
 import sys

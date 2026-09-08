@@ -1,5 +1,5 @@
 """
-Task 4 — FastAPI Application for WareFlow Person 1 (Warehouse Selector).
+Task 4 — FastAPI Application for Auxia Person 1 (Warehouse Selector).
 
 Exposes:
     POST /order/place  → ML-powered warehouse assignment (ENTRY POINT for all modules)
@@ -75,7 +75,7 @@ async def lifespan(app: FastAPI):
     """Application lifespan: initialise Firebase and load ML model on startup."""
     # Startup
     print("=" * 50)
-    print("  WareFlow P1 — Warehouse Selector API")
+    print("  Auxia P1 — Warehouse Selector API")
     print("=" * 50)
 
     # Load ML model
@@ -90,13 +90,13 @@ async def lifespan(app: FastAPI):
     yield
 
     # Shutdown (nothing to clean up)
-    print("👋 WareFlow P1 shutting down.")
+    print("👋 Auxia P1 shutting down.")
 
 
 # ─── FastAPI app ───
 
 app = FastAPI(
-    title="WareFlow P1 — Warehouse Selector",
+    title="Auxia P1 — Warehouse Selector",
     description="ML-powered warehouse assignment for the Supply Chain Intelligence layer",
     version="1.0.0",
     lifespan=lifespan,

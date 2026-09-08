@@ -68,7 +68,7 @@ export default function WarehouseIntelligenceCard() {
           style={{ maxHeight: expanded ? '200px' : '0px', opacity: expanded ? 1 : 0 }}
         >
           <p className="text-xs text-gray-500 font-mono leading-relaxed mt-3 p-3 bg-white/[0.02] rounded-lg border border-white/[0.04]">
-            For each new order, WareFlow evaluates available stock across the 10-warehouse network. 
+            For each new order, Auxia evaluates available stock across the 10-warehouse network. 
             The P1 Warehouse Selector applies a routing heuristic trained via XGBoost: it evaluates the baseline delivery time 
             and dynamically adds a 10% geographical distance penalty for every single order currently pending in that warehouse's queue.
           </p>

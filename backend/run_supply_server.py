@@ -1,5 +1,5 @@
 """
-WareFlow Supply Chain Server Launcher
+Auxia Supply Chain Server Launcher
 
 Starts the supply chain API on port 8001.
 The existing RL warehouse server continues to run on port 8000 — no conflicts.
@@ -16,7 +16,7 @@ Usage:
 import uvicorn
 
 if __name__ == "__main__":
-    print("\n--- Starting WareFlow Supply Chain Server ---")
+    print("\n--- Starting Auxia Supply Chain Server ---")
     print("   Port: 8001")
     print("   Docs: http://localhost:8001/docs")
     print("   Existing RL server: http://localhost:8000 (unaffected)\n")

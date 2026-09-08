@@ -103,7 +103,7 @@ def save_model_and_summary(model, accuracy: float, importances: dict, train_time
     # Write summary
     lines = [
         "=" * 50,
-        "  WareFlow P1 — Warehouse Selector Model Summary",
+        "  Auxia P1 — Warehouse Selector Model Summary",
         "=" * 50,
         "",
         f"Model Type:      XGBClassifier",
@@ -143,7 +143,7 @@ def main():
         print(f"✅ Generated {len(df):,} rows → {data_path}\n")
 
     print("=" * 50)
-    print("  WareFlow P1 — XGBoost Model Training")
+    print("  Auxia P1 — XGBoost Model Training")
     print("=" * 50)
 
     model, accuracy, importances, train_time = train_warehouse_selector(data_path)

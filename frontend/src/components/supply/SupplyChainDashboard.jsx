@@ -6,7 +6,7 @@ import DisruptionCard from '../DisruptionCard';
 const P2_API = 'http://localhost:8000';
 
 /**
- * WareFlow Supply Chain Dashboard
+ * Auxia Supply Chain Dashboard
  * 
  * Full-screen dark dashboard with:
  * - Left: Custom SVG network map (8 cities, animated route, truck position)
@@ -100,7 +100,7 @@ export default function SupplyChainDashboard({ onBack }) {
           )}
           <div className="flex items-center gap-2">
             <div className="w-2.5 h-2.5 bg-gradient-to-tr from-blue-400 to-indigo-400 rounded-full shadow-[0_0_8px_rgba(96,165,250,0.5)]" />
-            <span className="text-sm font-black tracking-tight text-white">WAREFLOW</span>
+            <span className="text-sm font-black tracking-tight text-white">AUXIA</span>
             <span className="text-[0.6rem] font-mono tracking-[0.2em] uppercase text-gray-600 ml-1">Supply Chain Intelligence</span>
           </div>
         </div>

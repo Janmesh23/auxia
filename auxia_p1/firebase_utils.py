@@ -1,5 +1,5 @@
 """
-Task 5 — Firebase Utility Functions for WareFlow P1.
+Task 5 — Firebase Utility Functions for Auxia P1.
 
 Handles Firebase using REST API to avoid requiring service account credentials.
 """
@@ -12,7 +12,7 @@ _firebase_initialized = False
 
 def get_firebase_app():
     global _firebase_initialized
-    db_url = os.environ.get("FIREBASE_DB_URL", os.environ.get("FIREBASE_URL", "https://wareflow-f8b9f-default-rtdb.firebaseio.com"))
+    db_url = os.environ.get("FIREBASE_DB_URL", os.environ.get("FIREBASE_URL", "https://auxia-f8b9f-default-rtdb.firebaseio.com"))
     if not db_url.endswith("/"):
         db_url += "/"
     os.environ["FIREBASE_URL"] = db_url

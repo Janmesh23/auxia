@@ -1,5 +1,5 @@
 """
-WareFlow Integration Test: Person 2 → Person 3 Full Storm Simulation
+Auxia Integration Test: Person 2 → Person 3 Full Storm Simulation
 
 This script verifies the complete disruption pipeline:
   1. RESET: Set shipment to initial state (route through Agra)
@@ -45,7 +45,7 @@ def check_server(url, name):
 
 
 def trigger_storm():
-    print_header("WAREFLOW INTEGRATION TEST: Person 2 -> Person 3")
+    print_header("AUXIA INTEGRATION TEST: Person 2 -> Person 3")
     print(f"  Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"  P2 (Disruption Predictor): http://localhost:8000")
     print(f"  P3 (Route Optimizer):      http://localhost:8001")

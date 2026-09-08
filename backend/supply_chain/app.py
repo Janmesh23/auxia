@@ -1,7 +1,7 @@
 """
-WareFlow Supply Chain — FastAPI Server (Unified Gateway)
+Auxia Supply Chain — FastAPI Server (Unified Gateway)
 
-This is THE single API server for the entire WareFlow system.
+This is THE single API server for the entire Auxia system.
 Runs on port 8001. All order operations, routing, and simulation go through here.
 
 Endpoints:
@@ -135,7 +135,7 @@ async def lifespan(app: FastAPI):
     is_live = initialize_firebase()
     mode = "LIVE Firebase" if is_live else "MOCK in-memory"
     print(f"\n{'='*60}")
-    print(f"  WareFlow Unified Supply Chain Server")
+    print(f"  Auxia Unified Supply Chain Server")
     print(f"  Mode: {mode}")
     print(f"  Port: 8001")
     print(f"  Warehouses: {len(WAREHOUSES)}")
@@ -177,7 +177,7 @@ async def lifespan(app: FastAPI):
 # ─── APP INSTANCE ───────────────────────────────────────────────────────────
 
 app = FastAPI(
-    title="WareFlow Unified API",
+    title="Auxia Unified API",
     description="Centralized gateway: Order placement, warehouse assignment, routing, simulation",
     version="2.0.0",
     lifespan=lifespan,
@@ -441,7 +441,7 @@ async def warehouse_next_order(wh_id: str):
 async def root():
     """Health check."""
     return {
-        "service": "WareFlow Unified API",
+        "service": "Auxia Unified API",
         "status": "ok",
         "mode": "mock" if is_mock_mode() else "live",
         "simulation_running": _simulation_running,

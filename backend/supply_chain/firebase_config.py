@@ -1,5 +1,5 @@
 """
-Firebase configuration for the WareFlow Supply Chain module.
+Firebase configuration for the Auxia Supply Chain module.
 
 HOW TO SET UP:
 1. Go to Firebase Console → Project Settings → Service Accounts
@@ -21,7 +21,7 @@ SERVICE_ACCOUNT_PATH = os.path.join(
 
 # Your Firebase Realtime Database URL
 # Find it at: Firebase Console → Realtime Database → Copy the URL at the top
-DATABASE_URL = "https://wareflow-f8b9f-default-rtdb.firebaseio.com/"
+DATABASE_URL = "https://auxia-f8b9f-default-rtdb.firebaseio.com/"
 
 # --- Initial Firebase Schema ---
 # This is the agreed-upon schema that ALL 4 persons must follow.

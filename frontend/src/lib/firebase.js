@@ -1,5 +1,5 @@
 /**
- * Firebase client initialization for WareFlow frontend.
+ * Firebase client initialization for Auxia frontend.
  * Provides real-time listeners for warehouse queues and active shipment state.
  */
 
@@ -7,7 +7,7 @@ import { initializeApp, getApps } from 'firebase/app';
 import { getDatabase, ref, onValue } from 'firebase/database';
 
 const firebaseConfig = {
-  databaseURL: 'https://wareflow-f8b9f-default-rtdb.firebaseio.com/',
+  databaseURL: 'https://auxia-f8b9f-default-rtdb.firebaseio.com/',
 };
 
 // Guard against duplicate initialization

@@ -63,7 +63,7 @@ def main():
     output_path = os.path.join(output_dir, "warehouse_training_data.csv")
 
     print("=" * 50)
-    print("  WareFlow P1 — Synthetic Data Generator")
+    print("  Auxia P1 — Synthetic Data Generator")
     print("=" * 50)
 
     df = generate_training_data()

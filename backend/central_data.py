@@ -1,5 +1,5 @@
 """
-WareFlow — Centralized Data Layer (Single Source of Truth)
+Auxia — Centralized Data Layer (Single Source of Truth)
 
 Every module in the system reads from and writes to this module.
 No more scattered hardcoded data across P1/P2/P3/P4.
@@ -486,7 +486,7 @@ def reset_all_data():
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("  WareFlow Central Data — Self-Test")
+    print("  Auxia Central Data — Self-Test")
     print("=" * 60)
 
     print(f"\n📦 Warehouses: {len(WAREHOUSES)}")

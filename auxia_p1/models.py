@@ -1,5 +1,5 @@
 """
-Pydantic models for WareFlow P1 API.
+Pydantic models for Auxia P1 API.
 
 Defines request/response schemas consumed by FastAPI endpoints
 and by Person 4's frontend.

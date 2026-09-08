@@ -1,5 +1,5 @@
 """
-WareFlow Unified Backend Launcher
+Auxia Unified Backend Launcher
 
 This script starts both the RL Warehouse server (Port 8000)
 and the Supply Chain Gateway server (Port 8001) simultaneously.
@@ -14,7 +14,7 @@ import time
 
 def main():
     print("=====================================================")
-    print("  🚀 Starting WareFlow Unified Backend")
+    print("  🚀 Starting Auxia Unified Backend")
     print("=====================================================")
 
     # Use sys.executable to ensure we use the same Python environment

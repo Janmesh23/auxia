@@ -1,11 +1,11 @@
-# WareFlow: Resilient Logistics and Dynamic Supply Chain
+# Auxia: Resilient Logistics and Dynamic Supply Chain
 
 
 ## The Opportunity
 Traditional logistics operations are highly reactive. We provide a comprehensive **Admin Command Center** that transforms reactive logistics into a proactive, autonomous ecosystem.
 
 ## The Solution & USP
-**The Solution:** WareFlow uses Reinforcement Learning for internal warehouse fulfillment and intelligent shortest-path routing between cities.  
+**The Solution:** Auxia uses Reinforcement Learning for internal warehouse fulfillment and intelligent shortest-path routing between cities.  
 **Unique Selling Proposition (USP):** An end-to-end "intelligent" journey where an ML model predicts route disruptions, including both extreme weather and live traffic, to autonomously reroute shipments in real-time.
 
 ---
@@ -23,7 +23,7 @@ Traditional logistics operations are highly reactive. We provide a comprehensive
 
 ## Core Algorithms
 
-WareFlow leverages a suite of powerful algorithms to drive its autonomous operations:
+Auxia leverages a suite of powerful algorithms to drive its autonomous operations:
 - **XGBoost**: Employed to efficiently and intelligently select the optimal warehouse based on real-time factors like inventory levels, distance, and fulfillment load.
 - **Dijkstra’s Algorithm**: Implemented for calculating the global shortest path across the 22-city highway graph network.
 - **Reinforcement Learning (PPO)**: Powers the autonomous agent's micro-navigation, pathfinding, and obstacle avoidance within the warehouse grid.
@@ -45,7 +45,7 @@ WareFlow leverages a suite of powerful algorithms to drive its autonomous operat
 ### Prerequisites
 - Python 3.10+
 - Node.js 20.19+
-- A `serviceAccountKey.json` placed in the `wareflow_p1/` directory.
+- A `serviceAccountKey.json` placed in the `auxia_p1/` directory.
 - A `backend/.env` file containing `GOOGLE_MAPS_API_KEY` and `GEMINI_API_KEY`.
 
 ### 1. Boot the Unified Backend (FastAPI + WebSockets)

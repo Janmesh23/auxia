@@ -117,7 +117,7 @@ def generate_disruption_alert(
     model = _get_gemini_model()
 
     if model:
-        prompt = f"""You are WareFlow Disruption Intelligence, an AI logistics risk analyst.
+        prompt = f"""You are Auxia Disruption Intelligence, an AI logistics risk analyst.
 
 Generate a concise, professional supply chain disruption alert (2-3 sentences max).
 

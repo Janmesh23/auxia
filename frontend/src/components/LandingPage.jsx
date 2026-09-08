@@ -13,7 +13,7 @@ const LandingPage = ({ onGetStarted, onSupplyChain }) => {
       <nav className="w-full max-w-[100rem] mx-auto px-8 md:px-12 py-8 flex items-center justify-between z-10 relative">
         <div className="flex items-center gap-2 font-black text-2xl tracking-tighter cursor-default select-none text-white">
           <div className="w-3.5 h-3.5 bg-gradient-to-tr from-blue-300 to-purple-300 rounded-full shadow-[0_0_8px_rgba(147,197,253,0.5)]" />
-          WAREFLOW
+          AUXIA
         </div>
         
         <div className="hidden md:flex gap-10 font-bold text-sm tracking-wide text-gray-400">

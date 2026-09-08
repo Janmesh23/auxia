@@ -72,7 +72,7 @@ def fetch_live_weather(lat: float, lng: float) -> Dict[str, float]:
 
 def fetch_weather_for_city(city_name: str) -> Dict[str, float]:
     """
-    Convenience wrapper that maps known WareFlow city names to coordinates
+    Convenience wrapper that maps known Auxia city names to coordinates
     and fetches weather. Uses the same coordinate data as Person 3's graph engine.
     """
     CITY_COORDS = {

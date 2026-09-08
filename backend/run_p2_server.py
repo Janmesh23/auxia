@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    print("\n--- Starting WareFlow Disruption Predictor (P2) ---")
+    print("\n--- Starting Auxia Disruption Predictor (P2) ---")
     print("   Port: 8000")
     
     # Ensure current directory is in path

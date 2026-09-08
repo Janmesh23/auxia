@@ -4,7 +4,7 @@ traffic_service.py
 Person 2 — Disruption Predictor: Google Maps Traffic Fetcher
 
 Fetches real-time traffic congestion data from the Google Maps Routes API
-for highway segments between WareFlow cities. Returns a congestion ratio
+for highway segments between Auxia cities. Returns a congestion ratio
 that measures how much slower traffic is compared to free-flow conditions.
 
 Google Maps Routes API docs:

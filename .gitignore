@@ -13,8 +13,8 @@ checkpoints/
 !checkpoints/final_model_37percent.zip
 ml/advanced_bake.log
 ml/bake.log
-wareflow_p1/warehouse_training_data.csv
-wareflow_p1/warehouse_selector.pkl
+auxia_p1/warehouse_training_data.csv
+auxia_p1/warehouse_selector.pkl
 
 # Secrets & credentials (NEVER push these)
 .env
