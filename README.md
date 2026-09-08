@@ -1,15 +1,15 @@
 # Auxia: Next-Gen Autonomous Supply Chain & Intelligent Logistics Platform
 
-## 📌 Problem Statement & Vision
+## Problem Statement & Vision
 Modern supply chains face significant friction from reactive management. **Auxia** offers a unified **Logistics Command Center** that converts static supply chains into self-healing, predictive fulfillment networks.
 
-## 🚀 Key Innovation & Value Proposition
+## Key Innovation & Value Proposition
 - **System Architecture:** Combines Reinforcement Learning (RL) for grid-based warehouse picking with graph-based dynamic routing across distributed transit nodes.
 - **Differentiator:** End-to-end adaptive routing engine powered by Machine Learning. Auxia proactively forecasts weather and traffic bottlenecks, executing real-time automated rerouting before disruptions occur.
 
 ---
 
-## ✨ Key Capabilities
+## Key Capabilities
 
 - **Command & Control Dashboard**: Real-time operational overview tracking fleet telemetry, inventory levels, and order pipelines.
 - **Autonomous Grid Fulfillment**: PPO-trained RL agents navigating complex warehouse environments to execute automated picking.
@@ -20,7 +20,7 @@ Modern supply chains face significant friction from reactive management. **Auxia
 
 ---
 
-## 🔬 Algorithmic Foundation
+## Algorithmic Foundation
 
 Auxia incorporates specialized AI models and optimization algorithms:
 - **XGBoost Classifier**: Multi-factor warehouse selection based on inventory proximity, workload distribution, and fulfillment capacity.
@@ -30,7 +30,7 @@ Auxia incorporates specialized AI models and optimization algorithms:
 
 ---
 
-## ⚡ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 ### System Technologies
 - **Frontend Layer**: React.js, Three.js, React Three Fiber, Tailwind CSS.
@@ -39,7 +39,7 @@ Auxia incorporates specialized AI models and optimization algorithms:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -64,5 +64,5 @@ npm run dev
 Open `http://localhost:5173` in your browser.
 
 ---
-### 🔗 Resources
-- **Project Demo:** [Watch Video Demonstration](https://drive.google.com/file/d/1_e_FabP5ld-Hk2iZ5TubcSKPOj4peNUV/view)
+### Resources
+- **Project Demo:** [Watch Video Demonstration]([https://drive.google.com/file/d/1_e_FabP5ld-Hk2iZ5TubcSKPOj4peNUV/view](https://docs.google.com/videos/d/1ctacpIknfGteZgplpzDnB8O1b9h0ZrJtUvL-n3WEpCI/play?usp=sharing))
