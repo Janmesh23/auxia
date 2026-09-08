@@ -65,4 +65,4 @@ Open `http://localhost:5173` in your browser.
 
 ---
 ### Resources
-- **Project Demo:** [Watch Video Demonstration]([https://drive.google.com/file/d/1_e_FabP5ld-Hk2iZ5TubcSKPOj4peNUV/view](https://docs.google.com/videos/d/1ctacpIknfGteZgplpzDnB8O1b9h0ZrJtUvL-n3WEpCI/play?usp=sharing))
+- **Project Demo:** [Watch Video Demonstration]((https://docs.google.com/videos/d/1ctacpIknfGteZgplpzDnB8O1b9h0ZrJtUvL-n3WEpCI/play?usp=sharing))
